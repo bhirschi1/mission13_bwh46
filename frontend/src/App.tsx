@@ -26,8 +26,9 @@
 import { Routes, Route } from 'react-router-dom';
 import Layout from './pages/Layout';
 import Home from './pages/Home';
-import Movies from './pages/Movies';
+// import Movies from './pages/Movies';
 import Podcasts from './pages/Podcasts';
+import MovieList from './pages/movie/MovieList';
 
 function App() {
   return (
@@ -35,7 +36,7 @@ function App() {
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
 
-        <Route path="Movies" element={<Movies />} />
+        <Route path="movie/MovieList" element={<MovieList />} />
 
         <Route path="Podcasts" element={<Podcasts />} />
       </Route>

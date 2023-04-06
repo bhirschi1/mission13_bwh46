@@ -16,7 +16,7 @@ function Navbar() {
           </li>
 
           <li className="nav-item">
-            <Link className="navbar-brand" to="/Movies">
+            <Link className="navbar-brand" to="/movie/MovieList">
               Movies
             </Link>
           </li>
